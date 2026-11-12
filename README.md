@@ -1,8 +1,8 @@
 # SDN-Integrated UDP Service Discovery System
-
-A low-level UDP socket-based Service Discovery and Registry application integrated with an SDN controller using Ryu, Open vSwitch, and Mininet. 
-
+ 
 The project solves the problem of hard-coded IP configurations by introducing a dynamic "phonebook" for network services. It demonstrates service registration, dynamic endpoint discovery, heartbeat-based health tracking, and controller-based OpenFlow rule management for failover scenarios.
+
+A low-level UDP socket-based Service Discovery and Registry application integrated with an SDN controller using Ryu, Open vSwitch, and Mininet.
 
 # 1. Project Objectives
 
