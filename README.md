@@ -4,7 +4,7 @@ A low-level UDP socket-based Service Discovery and Registry application integrat
 
 The project solves the problem of hard-coded IP configurations by introducing a dynamic "phonebook" for network services. It demonstrates service registration, dynamic endpoint discovery, heartbeat-based health tracking, and controller-based OpenFlow rule management for failover scenarios.
 
-## 1. Project Objectives
+# 1. Project Objectives
 
 - Implement a custom UDP-based application protocol for service registration, discovery, and heartbeats.
 - Run a central Service Registry and multiple Service Providers inside a Mininet network.
@@ -13,7 +13,7 @@ The project solves the problem of hard-coded IP configurations by introducing a 
 - Handle a "Challenging Scenario" (provider crash) by detecting heartbeat timeouts, blocking the dead IP at the switch level, and seamlessly failing over to a backup provider.
 - Provide a web-based Dashboard UI to manage provider processes, simulate client requests, and monitor network status.
 
-## 2. Technologies Used
+# 2. Technologies Used
 
 - Python 3.11
 - UDP and TCP Socket Programming
@@ -33,7 +33,7 @@ The project solves the problem of hard-coded IP configurations by introducing a 
 | **Vedika** | **Network & SDN Layer:** Created Mininet topology with Open vSwitch, configured OpenFlow 1.3, and implemented Ryu controller functionality for dynamic flow installation and round-robin routing. |
 | **Yashwant Kumar** | **Integration, Testing & Documentation:** Built the performance evaluation scripts (`benchmark.py`), tested integration, captured Wireshark UDP evidence, and prepared architecture documentation/demonstrations. |
 
-## 4. Project Architecture
+# 4. Project Architecture
 
 The Mininet topology contains five hosts and an API interface connected to two Open vSwitches, managed by a Ryu controller:
 
